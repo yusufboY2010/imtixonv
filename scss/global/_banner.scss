@@ -1,0 +1,74 @@
+.banner {
+  padding-top: 80px;
+  @include media(1000) {
+    padding-top: 40px;
+  }
+  @include media(700) {
+    padding-top: 24px;
+  }
+  &-image {
+    width: auto;
+    max-width: 100%;
+  }
+  &-image-social {
+    position: relative;
+  }
+  &-image img {
+    width: 100%;
+  }
+  &-title {
+    width: 65%;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 125%;
+    color: $white-color;
+    position: absolute;
+    left: 80px;
+    bottom: 25%;
+    @include media(1200) {
+      font-size: 38px;
+      width: 40%;
+    }
+    @include media(1000) {
+      left: 40px;
+    }
+    @include media(960) {
+      display: none;
+    }
+  }
+  &-subtitle-icon {
+    width: 35%;
+    display: flex;
+    position: absolute;
+    left: 80px;
+    bottom: 10%;
+    gap: 25px;
+    @include media(1000) {
+      left: 40px;
+    }
+    @include media(960) {
+      width: 90%;
+      left: 24px;
+    }
+  }
+  &-subtitle {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 120%;
+
+    color: $white-color;
+    @include media(1200) {
+      font-size: 18px;
+    }
+    @include media(960) {
+      font-size: 24px;
+    }
+  }
+  &-icon {
+    width: 64px;
+    height: 64px;
+    @include media(960) {
+      display: none;
+    }
+  }
+}

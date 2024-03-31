@@ -1,0 +1,244 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+html,
+body,
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 120%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1460px;
+  padding: 0 24px;
+  margin: 0 auto;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+.header {
+  padding: 10px 20px;
+}
+@media screen and (max-width: 530px) {
+  .header {
+    padding: 8px 16px;
+    height: 70px;
+  }
+}
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+.header-logo {
+  width: 110px;
+  height: 79px;
+}
+@media screen and (max-width: 530px) {
+  .header-logo {
+    width: 90px;
+    height: 60px;
+  }
+}
+.header-logo img {
+  width: 100%;
+  height: 100%;
+}
+.header-link {
+  font-weight: 600;
+  font-size: 16px;
+  color: #8d8c8b;
+}
+@media screen and (max-width: 970px) {
+  .header-link {
+    display: none;
+  }
+}
+.header-links :not(:last-child) {
+  margin-right: 48px;
+}
+@media screen and (max-width: 1050px) {
+  .header-links :not(:last-child) {
+    margin-right: 12px;
+  }
+}
+.header-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.header-button-ar {
+  border-radius: 8px;
+  padding: 18px 36px;
+  width: 186px;
+  height: 55px;
+  background: #ff8541;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  border: 1px solid #ff8541;
+  transition: all 0.3s;
+}
+@media screen and (max-width: 530px) {
+  .header-button-ar {
+    width: 120px;
+    height: 35px;
+    padding: 4px;
+    font-size: 14px;
+  }
+}
+.header-button-ar:hover {
+  background-color: transparent;
+  color: #ff8541;
+}
+.header-button-uz {
+  border: 1px solid #555351;
+  border-radius: 8px;
+  padding: 18px;
+  width: 83px;
+  height: 55px;
+  background: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  color: #555351;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+@media screen and (max-width: 530px) {
+  .header-button-uz {
+    height: 35px;
+    padding: 4px;
+    font-size: 14px;
+  }
+}
+
+.banner {
+  padding-top: 80px;
+}
+@media screen and (max-width: 1000px) {
+  .banner {
+    padding-top: 40px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .banner {
+    padding-top: 24px;
+  }
+}
+.banner-image {
+  width: auto;
+  max-width: 100%;
+}
+.banner-image-social {
+  position: relative;
+}
+.banner-image img {
+  width: 100%;
+}
+.banner-title {
+  width: 65%;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 125%;
+  color: #fff;
+  position: absolute;
+  left: 80px;
+  bottom: 25%;
+}
+@media screen and (max-width: 1200px) {
+  .banner-title {
+    font-size: 38px;
+    width: 40%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .banner-title {
+    left: 40px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .banner-title {
+    display: none;
+  }
+}
+.banner-subtitle-icon {
+  width: 35%;
+  display: flex;
+  position: absolute;
+  left: 80px;
+  bottom: 10%;
+  gap: 25px;
+}
+@media screen and (max-width: 1000px) {
+  .banner-subtitle-icon {
+    left: 40px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .banner-subtitle-icon {
+    width: 90%;
+    left: 24px;
+  }
+}
+.banner-subtitle {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 120%;
+  color: #fff;
+}
+@media screen and (max-width: 1200px) {
+  .banner-subtitle {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .banner-subtitle {
+    font-size: 24px;
+  }
+}
+.banner-icon {
+  width: 64px;
+  height: 64px;
+}
+@media screen and (max-width: 960px) {
+  .banner-icon {
+    display: none;
+  }
+}/*# sourceMappingURL=main.css.map */
